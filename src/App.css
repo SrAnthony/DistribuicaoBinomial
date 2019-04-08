@@ -26,12 +26,13 @@
   margin: 0 30px;
   padding: 15px 20px;
   font-size: 50px;
-  width: 100px;
+  width: 150px;
   background-color: rgba(255, 255, 255, .5);
   border: none;
   box-shadow: none;
   color: white;
   text-align: center;
+  border-radius: 5px;
 }
 
 .field-title {
@@ -47,4 +48,14 @@
   color: white;
   font-size: 100px;
   text-align: center;
+}
+
+.answer:last-child {
+  margin-top: 10px;
+}
+
+.answer span {
+  display: block;
+  font-size: 12px;
+  margin-top: -20px;
 }
